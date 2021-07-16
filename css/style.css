@@ -1,6 +1,23 @@
 :root {
+  --primary-color: #ff6c00;
+  --secondary-color: #191c26;
+
+  --text-primary: #9da4bd;
+  --text-secondary: #303030;
+  --font-family: ;
 }
 
 body {
   font-family: "Open sans";
+}
+
+h2.section-title {
+  font-family: "Raleway";
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.nav-link:hover,
+:focus {
+  color: var(--primary-color);
 }
