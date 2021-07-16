@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"> 
 </head>
 <body>
    <header class="header">
@@ -24,8 +27,10 @@
             </div>
        </nav>
        <aside>
+           <div class="solial-box">
             <a href="#" class="social-link">Instagram</a>
             <a href="#" class="social-link">Youtube</a>
+           </div>
        </aside>
        <div class="slider">
            <div class="slide">
@@ -69,7 +74,7 @@
         </section>
            <!-- Услуги и цены -->
         <section class="section-box" id="price-section">
-            <p class="suptitle-prymary">Проведи время в компании лучших мастеров</p>
+            <p class="suptitle-secondary">Проведи время в компании лучших мастеров</p>
             <h2 class="section-title lighten">Услуги и цены</h2>
                 <div class="price-box">
                     <ul class="price-list">
@@ -177,7 +182,7 @@
             </ul>
         </section>
     </main>
-    <footer id="footer">
+    <footer class="footer" id="footer">
         <!-- 
         <form action="">
             <fieldset>
@@ -199,23 +204,25 @@
             <p><input type="submit" value="отправить"></p>
         </form>
         <div>
-            <address>
-                <h2>Контакты</h2>
-                <ul>
-                    <li>ул. Васильковая, 7А Киев, 08132</li>
-                    <li><a href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
-                    <li><a href="mailto:barbershop@email.com">mailto:barbershop@email.com</a></li>
-                </ul>
-            </address>
-            <h3>время работы</h3>
-            <p>Ежедневно с 9:00 до 22:00</p>
-        </div>
-        <!-- Копірайт -->
-        <div>
-            <p>&#169 Copyright 2020</p>
-            <a href="#">Instagram</a>
-            <a href="#">Youtube</a>
+            <h2 class="section-title lighten">Контакты</h2>
+            <div class="contacts-box">
+                <address>ул. Васильковая, 7А Киев, 08132</address>
+                <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+                <a href="mailto:barbershop@email.com">mailto:barbershop@email.com</a>
+            </div>
+            <div class="schedule-box">
+                <p suptitle-secondary>время работы</p>
+                <p>Ежедневно с 9:00 до 22:00</p>
+            </div>
         </div>
     </footer>
+    <!-- Копірайт -->
+    <div class="copyright">
+        <p class="copy-text">&#169 Copyright <span>2020</span></p>
+        <div class="solial-box">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Youtube</a>
+        </div>
+    </div>
 </body>
 </html>
