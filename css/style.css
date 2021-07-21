@@ -8,16 +8,159 @@
 }
 
 body {
-  font-family: "Open sans";
+  font-family: "Open sans", sans-serif;
+  letter-spacing: 0.02em;
 }
 
-h2.section-title {
-  font-family: "Raleway";
-  font-size: 42px;
-  font-weight: 700;
+.header {
+  background-color: bisque;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.link-style {
+  text-decoration: none;
 }
 
 .nav-link:hover,
-:focus {
-  color: var(--primary-color);
+.nav-link:focus,
+.social-link:hover,
+.social-link:focus {
+  color: #ff6c00;
+}
+
+.nav-links,
+.btn-box {
+  display: inline-block;
+}
+
+.phone-link {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.social-link {
+  color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.33;
+  transform: rotate(-90deg);
+}
+
+.primary-btn {
+  padding: 12px 20px;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.suptitle-secondary,
+.suptitle-prymary {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-prymary {
+  color: var(--text-secondary);
+}
+
+.hero-title {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-description {
+  color: var(--text-primary);
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+h2.section-title {
+  color: var(--text-secondary);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.section-subtitle {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.section-description {
+  color: #555;
+}
+
+.primary-btn.darken {
+  color: #303030;
+}
+
+.section-title.lighten {
+  color: #ffffff;
+}
+
+.price-list {
+  display: inline-block;
+}
+
+.price-item p,
+.price-item span {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  color: #9da4bd;
+}
+
+/* why us atyles here */
+
+.number-box p,
+.number-box span {
+  display: block;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.number-box span {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
 }
