@@ -14,6 +14,35 @@ body {
 
 .header {
   background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 680px;
+}
+
+.logo-img {
+  width: 68px;
+  height: 56px;
+  margin: 0 30px;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  /* background-color: burlywood; */
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.nav-holder {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
 }
 
 ul {
@@ -28,11 +57,10 @@ ul {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  display: inline-block;
 }
 
 .nav-links li {
-  display: inline-block;
+  margin: 0 40px;
 }
 
 .link-style {
@@ -46,9 +74,9 @@ ul {
   color: #ff6c00;
 }
 
-.nav-links,
 .btn-box {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .phone-link {
@@ -60,6 +88,15 @@ ul {
   text-transform: uppercase;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 155px;
+}
+
+.social-box {
+}
+
 .social-link {
   color: #303030;
   font-weight: 600;
@@ -69,15 +106,16 @@ ul {
 }
 
 .primary-btn {
-  padding: 12px 20px;
-  border: 1px solid #ff6c00;
-  border-radius: 25px;
-  color: #ffffff;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: #ffffff;
 }
 
 .suptitle-secondary,
@@ -92,6 +130,11 @@ ul {
 
 .suptitle-prymary {
   color: var(--text-secondary);
+}
+
+.slider {
+  background-image: url(../images/Slider.png);
+  width: calc(100% - 155px);
 }
 
 .hero-title {
@@ -133,18 +176,41 @@ h2.section-title {
 }
 
 .price-list {
-  display: inline-block;
+  display: flex;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
 }
 
 .price-item p,
 .price-item span {
-  display: inline-block;
   font-size: 18px;
   line-height: 30px;
   color: #9da4bd;
 }
 
 /* why us atyles here */
+
+.section-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.number-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 170px;
+  width: 48%;
+  padding: 0 100px;
+}
+
+.number-box {
+  width: 48%;
+}
 
 .number-box p,
 .number-box span {
@@ -163,4 +229,10 @@ h2.section-title {
   font-size: 11px;
   line-height: 15px;
   text-align: center;
+}
+
+.masters-list {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 300px;
 }
