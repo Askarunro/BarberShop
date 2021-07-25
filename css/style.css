@@ -8,16 +8,42 @@
 }
 
 body {
+  padding: 0 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-family: "Open sans", sans-serif;
   letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
 }
 
 .header {
   background-color: bisque;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  height: 680px;
+  /* height: 100vh; */
 }
 
 .logo-img {
@@ -27,13 +53,13 @@ body {
 }
 
 .navbar {
-  position: fixed;
+  width: 1170px;
+  /* position: fixed; */
   display: flex;
-  width: 100%;
-  height: 100px;
-  /* background-color: burlywood; */
-  padding-top: 30px;
   justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
+  /* background-color: chocolate; */
 }
 
 .nav-holder {
@@ -45,10 +71,8 @@ body {
   display: flex;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.item-menu {
+  margin-left: 40px;
 }
 
 .nav-link {
@@ -57,10 +81,6 @@ ul {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-}
-
-.nav-links li {
-  margin: 0 40px;
 }
 
 .link-style {
@@ -74,9 +94,14 @@ ul {
   color: #ff6c00;
 }
 
-.btn-box {
+/* .btn-box a {
   display: flex;
+   justify-content: space-between; 
   align-items: center;
+} */
+
+.btn-box a:first-child {
+  margin-right: 40px;
 }
 
 .phone-link {
@@ -90,8 +115,9 @@ ul {
 
 .sidebar {
   display: flex;
-  flex-direction: column;
-  width: 155px;
+  flex-direction: column-reverse;
+  width: 100px;
+  height: 100vh;
 }
 
 .social-box {
@@ -133,22 +159,52 @@ ul {
 }
 
 .slider {
-  background-image: url(../images/Slider.png);
-  width: calc(100% - 155px);
+  /* background-image: url(../images/Slider.png); */
+  width: calc(100% - 100px);
+  background-color: #000000;
+}
+
+.slide {
+  width: 500px;
+  margin: 272px 525px 260px 100px;
 }
 
 .hero-title {
+  margin-top: 20px;
+
   font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
 
 .hero-description {
+  margin-top: 20px;
+
   color: var(--text-primary);
   font-weight: 400px;
   font-size: 18px;
   line-height: 1.67;
 }
 
-h2.section-title {
+.section-box {
+  padding: 130px 0;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: chocolate;
+}
+
+.about-box h2.section-title {
   color: var(--text-secondary);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -192,12 +248,6 @@ h2.section-title {
 }
 
 /* why us atyles here */
-
-.section-box {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
 
 .number-container {
   display: flex;
