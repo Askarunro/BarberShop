@@ -15,48 +15,52 @@
     <link rel="stylesheet" href="./css/style.css"> 
 </head>
 <body>
-    <div class="container">
+    
         <header class="header">
             <!-- Navbar -->
-            <nav class="navbar">
-                <div class="nav-holder">
-                    <img src="./images/Logo.png" alt="gallery store More" width="69px" class="logo-img">
-                    <ul class="nav-links">
-                        <li class="item-menu"><a href="#about-section" class="nav-link link-style">О нас</a></li>
-                        <li class="item-menu"><a href="#price-section" class="nav-link link-style">Услуги и цены</a></li>
-                        <li class="item-menu"><a href="#masters-section" class="nav-link link-style">Мастера</a></li>
-                        <li class="item-menu"><a href="#" class="nav-link link-style">Контакты</a></li>
-                    </ul>
+            <div class="container header-box">
+                <nav class="navbar">
+                    <div class="nav-holder">
+                        <img src="./images/Logo.png" alt="gallery store More" width="69px" class="logo-img">
+                        <ul class="nav-links">
+                            <li class="item-menu"><a href="#about-section" class="nav-link link-style">О нас</a></li>
+                            <li class="item-menu"><a href="#price-section" class="nav-link link-style">Услуги и цены</a></li>
+                            <li class="item-menu"><a href="#masters-section" class="nav-link link-style">Мастера</a></li>
+                            <li class="item-menu"><a href="#" class="nav-link link-style">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-box">
+                        <a href="tel:+380441111111" class="phone-link link-style">+38 044 111 11 11</a>
+                        <a href="#footer" class="primary-btn link-style">Онлайн-запись</a>
+                    </div>
+                </nav>
+                <aside class="sidebar">
+                    <div class="solial-box">
+                        <a href="#" class="social-link link-style">Youtube</a>
+                        <a href="#" class="social-link link-style">Instagram</a>
+                    </div>
+                </aside>
+                <div class="slider">
+                    <div class="slide">
+                        <p lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</p>
+                        <h2 class="hero-title">BarberShop</h2>
+                        <p class="hero-description">Мы эксперты в модных мужских стрижках.
+                            Работаем быстро, осторожно и со вкусом.</p>
+                        <!-- </div>
+                                <div class="slide">
+                                    <p lang="en" class="suptitle-secondary"></p>
+                                    <h2 class="hero-title"></h2>
+                                    <p class="hero-description"></p>
+                                </div>
+                                <div class="slide">
+                                    <p lang="en" class="suptitle-secondary"></p>
+                                    <h2 class="hero-title"></h2>
+                                    <p class="hero-description"></p>
+                                </div> -->
+                    </div>
                 </div>
-                <div class="btn-box">
-                    <a href="tel:+380441111111" class="phone-link link-style">+38 044 111 11 11</a>
-                    <a href="#footer" class="primary-btn link-style">Онлайн-запись</a>
-                </div>
-            </nav>
-            <aside class="sidebar">
-                <div class="solial-box">
-                    <a href="#" class="social-link link-style">Youtube</a>
-                    <a href="#" class="social-link link-style">Instagram</a>
-                </div>
-            </aside>
-            <div class="slider">
-                <div class="slide">
-                    <p lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</p>
-                    <h2 class="hero-title">BarberShop</h2>
-                    <p class="hero-description">Мы эксперты в модных мужских стрижках.
-                        Работаем быстро, осторожно и со вкусом.</p>
-                <!-- </div>
-                <div class="slide">
-                    <p lang="en" class="suptitle-secondary"></p>
-                    <h2 class="hero-title"></h2>
-                    <p class="hero-description"></p>
-                </div>
-                <div class="slide">
-                    <p lang="en" class="suptitle-secondary"></p>
-                    <h2 class="hero-title"></h2>
-                    <p class="hero-description"></p>
-                </div> -->
             </div>
+            
         </header>
         <main class="layout">
             <!-- About section-->
@@ -83,55 +87,56 @@
                 </div>
             </section>
             <!-- Услуги и цены -->
-            <section class="section-box price-section-box" id="price-section">
-                <p class="suptitle-secondary">Проведи время в компании лучших мастеров</p>
-                <h2 class="section-title lighten">Услуги и цены</h2>
-                <div class="price-box">
-                    <ul class="price-list">
-                        <li class="price-item">
-                            <p>Мужская стрижка</p>
-                            <span>от 300 грн.</span>
-                        </li>
-                        <li class="price-item">
-                            <p>Стрижка бороды</p>
-                            <span>от 200 грн.</span>
-                        </li>
-                        <li class="price-item">
-                            <p>Стрижка усов</p>
-                            <span>от 200 грн.</span>
-                        </li>
-                        <li class="price-item">
-                            <p>Бритье опасной бритвой</p>
-                            <span>от 200 грн.</span>
-                        </li>
-                    </ul>
-                    <ul class="price-list">
-                        <li class="price-item">
-                            <p>Cтрижка у стажера</p>
-                            <span>от 50 грн.</span>
-                        </li>
-                        <li class="price-item">
-                            <p>Стрижка под насадку </p>
-                            <span>от 200грн.</span>
-                        </li>
-                        <li class="price-item">
-                            <p>Детская стрижка (до 12 лет)</p>
-                            <span>от 300 грн.</span>
-                        </li>
-                        <li class="price-item">
-                            <p>Камуфлирование седины </p>
-                            <span>от 200 грн.</span>
-                        </li>
-                    </ul>
+            <section class="section-box price-section" id="price-section">
+                <div class="container price-section-box">
+                    <p class="suptitle-secondary">Проведи время в компании лучших мастеров</p>
+                    <h2 class="section-title lighten">Услуги и цены</h2>
+                    <div class="price-box">
+                        <ul class="price-list">
+                            <li class="price-item">
+                                <p>Мужская стрижка</p>
+                                <span>от 300 грн.</span>
+                            </li>
+                            <li class="price-item">
+                                <p>Стрижка бороды</p>
+                                <span>от 200 грн.</span>
+                            </li>
+                            <li class="price-item">
+                                <p>Стрижка усов</p>
+                                <span>от 200 грн.</span>
+                            </li>
+                            <li class="price-item">
+                                <p>Бритье опасной бритвой</p>
+                                <span>от 200 грн.</span>
+                            </li>
+                        </ul>
+                        <ul class="price-list">
+                            <li class="price-item">
+                                <p>Cтрижка у стажера</p>
+                                <span>от 50 грн.</span>
+                            </li>
+                            <li class="price-item">
+                                <p>Стрижка под насадку </p>
+                                <span>от 200грн.</span>
+                            </li>
+                            <li class="price-item">
+                                <p>Детская стрижка (до 12 лет)</p>
+                                <span>от 300 грн.</span>
+                            </li>
+                            <li class="price-item">
+                                <p>Камуфлирование седины </p>
+                                <span>от 200 грн.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#footer" class="primary-btn link-style">Онлайн-запись</a>
+                    </div>
                 </div>
-                <div class="box-btn">
-                    <a href="#footer" class="primary-btn link-style">Онлайн-запись</a>
-                </div>
-                
             </section>
             <!-- Наші переваги -->
             <section class="section-box" id="why-section">
-                <div class="box-why-us">
+                <div class="container box-why-us">
                     <div class="number-container">
                         <div class="number-box">
                             <p>600</p>
@@ -159,101 +164,82 @@
                 </div>
             </section>
             <!-- Наші майстри -->
-            <section class="section-box" id="masters-section">
-                <p class="suptitle-prymary">для настоящих ценителей атмосферы</p>
-                <h2 class="section-title">Наши мастера</h2>
-                <ul class="masters-list">
-                    <li class="master-card">
-                        <img src="./images/img11.jpg" alt="майстер стриже">
-                        <h3>John Smith</h3>
-                        <p>Extreme Barber</p>
-                        <ul>
-                            <li><a href="" aria-label="Instagram link"><img src="./images/instagram.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="twitter link"><img src="./images/twitter.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="facebook link"><img src="./images/facebook.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="linkedin link"><img src="./images/linkedin.png" alt="значок"></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="master-card">
-                        <img src="./images/img21.jpg" alt="майстер стриже">
-                        <h3>Michele Doe</h3>
-                        <p>Extreme Barber</p>
-                        <ul>
-                            <li><a href="" aria-label="Instagram link"><img src="./images/instagram.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="twitter link"><img src="./images/twitter.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="facebook link"><img src="./images/facebook.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="linkedin link"><img src="./images/linkedin.png" alt="значок"></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="master-card">
-                        <img src="./images/img31.jpg" alt="майстер стриже">
-                        <h3>Alan Black</h3>
-                        <p>Extreme Barber</p>
-                        <ul>
-                            <li><a href="" aria-label="Instagram link"><img src="./images/instagram.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="twitter link"><img src="./images/twitter.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="facebook link"><img src="./images/facebook.png" alt="значок"></a>
-                            </li>
-                            <li><a href="" aria-label="linkedin link"><img src="./images/linkedin.png" alt="значок"></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <section class="section-box masters-box" id="masters-section">
+                <div class="container ">
+                    <p class="suptitle-prymary">для настоящих ценителей атмосферы</p>
+                    <h2 class="section-title">Наши мастера</h2>
+                    <ul class="masters-list">
+                        <li class="master-card">
+                            <img src="./images/img11.jpg" alt="майстер стриже">
+                            <h3>John Smith</h3>
+                            <p>Extreme Barber</p>
+                        </li>
+                        <li class="master-card">
+                            <img src="./images/img21.jpg" alt="майстер стриже">
+                            <h3>Michele Doe</h3>
+                            <p>Extreme Barber</p>
+                        </li>
+                        <li class="master-card">
+                            <img src="./images/img31.jpg" alt="майстер стриже">
+                            <h3>Alan Black</h3>
+                            <p>Extreme Barber</p>
+                            
+                        </li>
+                    </ul>
+                </div>
             </section>
             <!-- Галерея -->
             <section class="section-box">
-                <p class="suptitle-primary">На латинском языке “барба” означает “борода”</p>
-                <ul>
-                    <li><img src="./images/Rectangle 25.jpg" alt=""></li>
-                    <li><img src="./images/Rectangle 26.jpg" alt=""></li>
-                    <li><img src="./images/Rectangle 27.jpg" alt=""></li>
-                    <li><img src="./images/Rectangle 28.jpg" alt=""></li>
-                </ul>
+               <div class="container">
+                    <p class="suptitle-prymary ">На латинском языке “барба” означает “борода”</p>
+                    <ul class="items-galary">
+                        <li class="item-galary"><img src="./images/Rectangle 25.jpg" alt=""></li>
+                        <li class="item-galary"><img src="./images/Rectangle 26.jpg" alt=""></li>
+                        <li class="item-galary"><img src="./images/Rectangle 27.jpg" alt=""></li>
+                        <li class="item-galary"><img src="./images/Rectangle 28.jpg" alt=""></li>
+                    </ul>
+               </div>
             </section>
         </main>
         <footer class="footer" id="footer">
-            <!-- 
-                <form action="">
-                    <fieldset>
-                        <legend>Онлайн-запись</legend>
-                        <p><label>Имя <em>*</em><input type="text"></label></p>
-                        <p><label>Телефон <em>*</em><input type="text"></label></p>
-                        <p><label>сообщение <input type="text"></label></p>
-                    </fieldset>
-                    <p><input type="submit" value="отправить"></p>
-                </form>
-                 -->
-            <form action="">
-                <fieldset>
-                    <legend>Онлайн-запись</legend>
-                    <input type="text" value="Имя*">
-                    <input type="tel" value="Телефон*">
-                    <input type="text" value="сообщение">
-                </fieldset>
-                <p><input type="submit" value="отправить"></p>
-            </form>
-            <div>
-                <h2 class="section-title lighten">Контакты</h2>
-                <div class="contacts-box">
-                    <address>ул. Васильковая, 7А Киев, 08132</address>
-                    <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
-                    <a href="mailto:barbershop@email.com">mailto:barbershop@email.com</a>
+            <div class="container box-footer">
+                <!-- 
+                                <form action="">
+                                    <fieldset>
+                                        <legend>Онлайн-запись</legend>
+                                        <p><label>Имя <em>*</em><input type="text"></label></p>
+                                        <p><label>Телефон <em>*</em><input type="text"></label></p>
+                                        <p><label>сообщение <input type="text"></label></p>
+                                    </fieldset>
+                                    <p><input type="submit" value="отправить"></p>
+                                </form>
+                                 -->
+                <div class="box-form">
+                    <form action="">
+                        <fieldset>
+                            <legend class="section-title lighten">Онлайн-запись</legend>
+                            <input type="text" value="Имя*">
+                            <input type="tel" value="Телефон*">
+                            <input type="text" value="сообщение">
+                        </fieldset>
+                        <p><input type="submit" value="отправить"></p>
+                    </form>
                 </div>
-                <div class="schedule-box">
-                    <p suptitle-secondary>время работы</p>
-                    <p>Ежедневно с 9:00 до 22:00</p>
+                
+                <div class="box-footer-cont">
+                    <h2 class="section-title lighten">Контакты</h2>
+                    <div class="contacts-box">
+                        <address>ул. Васильковая, 7А Киев, 08132</address>
+                        <a href="tel:+380441111111" class="link-tel link">+38 044 111 11 11</a>
+                        <a href="mailto:barbershop@email.com" class="link-mail link">barbershop@email.com</a>
+                    </div>
+                    <div class="schedule-box">
+                        <p class="suptitle-secondary">время работы</p>
+                        <p>Ежедневно с 9:00 до 22:00</p>
+                    </div>
                 </div>
             </div>
+            
         </footer>
         <!-- Копірайт -->
         <div class="copyright">
@@ -263,7 +249,6 @@
                 <a href="#" class="social-link">Youtube</a>
             </div>
         </div>
-    </div>
-  
+
 </body>
 </html>
