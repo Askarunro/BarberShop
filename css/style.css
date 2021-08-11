@@ -436,7 +436,7 @@ p {
 .box-footer {
   display: flex;
 
-  padding: 130px 0;
+  padding: 130px 55px;
 }
 
 .box-footer-cont {
@@ -446,6 +446,7 @@ p {
 
 .box-footer-cont .section-title {
   margin-bottom: 40px;
+  max-width: 625px;
 }
 
 address {
@@ -471,10 +472,36 @@ address {
   color: #fff;
 }
 
-.box-form .section-title {
-  margin-bottom: 40px;
+.box-form{
+padding-right: 40px;
+max-width: 655px;
 }
 
+.form-online{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-form h2{
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color:#FFFFFF;
+  margin-bottom: 44px;
+}
+
+.form-online > input{
+  margin-bottom: 44px;
+}
+
+.inp-style:nth-child(1){
+  background-color: blue;
+}
+
+/* .box-form .section-title {
+  margin-bottom: 40px;
+} */
+/* 
 .fieldset {
   text-decoration: none;
-}
+} */
