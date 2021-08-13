@@ -416,6 +416,11 @@ p {
 
 /* GALARY */
 
+/* .suptitle-prymary::before{
+  border:1px solid #303030 ;
+  border-width: 60px;
+} */
+
 .items-galary {
   display: flex;
   margin: -15px;
