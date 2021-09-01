@@ -37,9 +37,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="content-link">
-                        <a href="tel:+380441111111" class="phone-link link-style">+38 044 111 11 11</a>
-                        <a href="#footer" class="primary-btn link-style">Онлайн-запись</a>
+                    <div class="box-links">
+                        <a href="tel:+380441111111" class="box-links__phone link-style">+38 044 111 11 11</a>
+                        <div class="box-btn">
+                            <a href="#footer" class="primary-btn link-style">Онлайн-запись</a>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -78,15 +80,15 @@
                 </section>
             </div>    
             <!-- About section-->
-            <section class="section-box about-section" id="about-section">
+            <section class="about-section" id="about-section">
                 <!-- Fotos block -->
                 <div class="container about-box">
-                    <div class="about-image-box">
-                        <img src="./images/img 1.jpg" alt="">
-                        <img src="./images/img 2.jpg" alt="">
+                    <div class="about-box__images">
+                        <img class="about-box__image" src="./images/img 1.jpg" alt="">
+                        <img class="about-box__image" src="./images/img 2.jpg" alt="">
                     </div>
                     <!-- About block -->
-                    <div class="about-inf">
+                    <div class="about-box__information">
                         <p class="suptitle-prymary">О нас</p>
                         <h2 class="section-title">Лучший Барбершоп твоего города</h2>
                         <h3 class="section-subtitle">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
@@ -96,50 +98,50 @@
                             то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами
                             "на одной волне".
                             Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-                        <a href="#" class="primary-btn darken link-style">Онлайн-запись</a>
+                        <a href="#" class="primary-btn primary-btn--darken link-style">Онлайн-запись</a>
                     </div>
                 </div>
             </section>
             <!-- Услуги и цены -->
-            <section class="section-box price-section" id="price-section">
-                <div class="container price-section-box">
+            <section class="price-section" id="price-section">
+                <div class="container">
                     <p class="suptitle-secondary">Проведи время в компании лучших мастеров</p>
-                    <h2 class="section-title lighten">Услуги и цены</h2>
+                    <h2 class="section-title section-title--lighten">Услуги и цены</h2>
                     <div class="price-box">
-                        <ul class="price-list">
-                            <li class="price-item">
-                                <p>Мужская стрижка</p>
-                                <span>от 300 грн.</span>
+                        <ul class="price-box__list">
+                            <li class="price-box__item">
+                                <p class="price-box__title">Мужская стрижка</p>
+                                <span class="price-box__subtitle">от 300 грн.</span>
                             </li>
-                            <li class="price-item">
-                                <p>Стрижка бороды</p>
-                                <span>от 200 грн.</span>
+                            <li class="price-box__item">
+                                <p class="price-box__title">Стрижка бороды</p>
+                                <span class="price-box__subtitle">от 200 грн.</span>
                             </li>
-                            <li class="price-item">
-                                <p>Стрижка усов</p>
-                                <span>от 200 грн.</span>
+                            <li class="price-box__item">
+                                <p class="price-box__title">Стрижка усов</p>
+                                <span class="price-box__subtitle">от 200 грн.</span>
                             </li>
-                            <li class="price-item">
-                                <p>Бритье опасной бритвой</p>
-                                <span>от 200 грн.</span>
+                            <li class="price-box__item">
+                                <p class="price-box__title">Бритье опасной бритвой</p>
+                                <span class="price-box__subtitle">от 200 грн.</span>
                             </li>
                         </ul>
-                        <ul class="price-list">
-                            <li class="price-item">
-                                <p>Cтрижка у стажера</p>
-                                <span>от 50 грн.</span>
+                        <ul class="price-box__list">
+                            <li class="price-box__item">
+                                <p class="price-box__title">Cтрижка у стажера</p>
+                                <span class="price-box__subtitle">от 50 грн.</span>
                             </li>
-                            <li class="price-item">
-                                <p>Стрижка под насадку </p>
-                                <span>от 200грн.</span>
+                            <li class="price-box__item">
+                                <p class="price-box__title">Стрижка под насадку </p>
+                                <span class="price-box__subtitle">от 200грн.</span>
                             </li>
-                            <li class="price-item">
-                                <p>Детская стрижка (до 12 лет)</p>
-                                <span>от 300 грн.</span>
+                            <li class="price-box__item">
+                                <p class="price-box__title">Детская стрижка (до 12 лет)</p>
+                                <span class="price-box__subtitle">от 300 грн.</span>
                             </li>
-                            <li class="price-item">
-                                <p>Камуфлирование седины </p>
-                                <span>от 200 грн.</span>
+                            <li class="price-box__item">
+                                <p class="price-box__title">Камуфлирование седины </p>
+                                <span class="price-box__subtitle">от 200 грн.</span>
                             </li>
                         </ul>
                     </div>
@@ -149,26 +151,26 @@
                 </div>
             </section>
             <!-- Наші переваги -->
-            <section class="section-box" id="why-section">
-                <div class="container box-why-us">
-                    <div class="number-container">
-                        <div class="number-box">
-                            <p>600</p>
-                            <span>Довольных клиентов в день</span>
-                        </div>
-                        <div class="number-box">
-                            <p>50</p>
-                            <span>Наград за отличный сервис</span>
-                        </div>
-                        <div class="number-box">
-                            <p>20</p>
-                            <span>Лучших мастеров Киева</span>
-                        </div>
-                        <div class="number-box">
-                            <p>100</p>
-                            <span>Подарков постоянным клиентам</span>
-                        </div>
-                    </div>
+            <section class="advantages-section" id="why-section">
+                <div class="container box-advantages">
+                    <ul class="box-advantages__list">
+                        <li class="box-advantages__item">
+                            <p class="box-advantages__title">600</p>
+                            <span class="box-advantages__subtitle">Довольных клиентов в день</span>
+                        </li>
+                        <li class="box-advantages__item">
+                            <p class="box-advantages__title">50</p>
+                            <span class="box-advantages__subtitle">Наград за отличный сервис</span>
+                        </li>
+                        <li class="box-advantages__item">
+                            <p class="box-advantages__title">20</p>
+                            <span class="box-advantages__subtitle">Лучших мастеров Киева</span>
+                        </li>
+                        <li class="box-advantages__item">
+                            <p class="box-advantages__title">100</p>
+                            <span class="box-advantages__subtitle">Подарков постоянным клиентам</span>
+                        </li>
+                    </ul>
                     <div>
                         <p class="suptitle-prymary">старая традиционная школа</p>
                         <h2 class="section-title">Почему приходят именно к нам?</h2>
@@ -178,26 +180,130 @@
                 </div>
             </section>
             <!-- Наші майстри -->
-            <section class="section-box masters-box" id="masters-section">
+            <section class="masters-section" id="masters-section">
                 <div class="container ">
                     <p class="suptitle-prymary">для настоящих ценителей атмосферы</p>
                     <h2 class="section-title">Наши мастера</h2>
                     <ul class="masters-list">
-                        <li class="master-card">
+                        <li class="masters-list__card">
                             <img src="./images/img11.jpg" alt="майстер стриже">
-                            <h3>John Smith</h3>
-                            <p>Extreme Barber</p>
+                            <!-- <div class="member-card">
+                                <h3 class="member-card__title">John Smith</h3>
+                                <p class="member-card__subtitle">Extreme Barber</p>
+                                <div class="member-card__box">
+                                    <ul class="lists-networks list">
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="instagram">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="twitter">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="facebook">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#facebook">
+                                                    </use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="linkedin">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
                         </li>
-                        <li class="master-card">
+                        <li class="masters-list__card">
                             <img src="./images/img21.jpg" alt="майстер стриже">
-                            <h3>Michele Doe</h3>
-                            <p>Extreme Barber</p>
+                            <!-- <div class="member-card">
+                                <h3 class="member-card__title">Michele Doe</h3>
+                                <p class="member-card__subtitle">Extreme Barber</p>
+                                <div class="member-card__box">
+                                    <ul class="lists-networks list">
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="instagram">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="twitter">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="facebook">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#facebook">
+                                                    </use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="linkedin">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
                         </li>
-                        <li class="master-card">
+                        <li class="masters-list__card">
                             <img src="./images/img31.jpg" alt="майстер стриже">
-                            <h3>Alan Black</h3>
-                            <p>Extreme Barber</p>
-                            
+                            <!-- <div class="member-card">
+                                <h3 class="member-card__title">Alan Black</h3>
+                                <p class="member-card__subtitle">Extreme Barber</p>
+                                <div class="member-card__box">
+                                    <ul class="lists-networks list">
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="instagram">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="twitter">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="facebook">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#facebook">
+                                                    </use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="lists-networks__item">
+                                            <a href="" class="lists-networks__link" aria-label="linkedin">
+                                                <svg class="lists-networks__icon" width="20" height="20">
+                                                    <use href="./images/sprite.svg#linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
                         </li>
                     </ul>
                 </div>
@@ -254,7 +360,7 @@
                 </div> -->
                 
                 <div class="box-footer-cont">
-                    <h2 class="section-title lighten">Контакты</h2>
+                    <h2 class="section-title section-title--lighten">Контакты</h2>
                     <div class="contacts-box">
                         <address>ул. Васильковая, 7А Киев, 08132</address>
                         <a href="tel:+380441111111" class="link-tel link">+38 044 111 11 11</a>
